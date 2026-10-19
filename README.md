@@ -8,6 +8,9 @@ A repository for learning Linux, Shell scripting, and basic terminal commands.
 holbertonschool-shell/
 ├── README.md
 └── basics/
-    └── 0-current_working_directory
+    ├── 0-current_working_directory
+    ├── 1-listit
+    ├── 2-bring_me_home
+    ├── 3-listfiles
     └── README.md
 ```
