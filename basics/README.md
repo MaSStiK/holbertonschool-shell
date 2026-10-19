@@ -9,6 +9,17 @@
 - 4-listmorefiles - List all files, including hidden ones, in long format.
 - 5-listfilesdigitonly - List all files in long format with numeric user and group IDs.
 - 6-firstdirectory - Create /tmp/my_first_directory.
+- 7-movethatfile - Move /tmp/betty to /tmp/my_first_directory.
+- 8-firstdelete - Delete /tmp/my_first_directory/betty.
+- 9-firstdirdeletion - Delete /tmp/my_first_directory.
+- 10-back - Return to the previous working directory.
+- 11-lists - List files in the current, parent, and /boot directories.
+- 12-file_type - Display the type of /tmp/iamafile.
+- 13-symbolic_link - Create a symbolic link to /bin/ls.
+- 14-copy_html - Copy new or updated HTML files to the parent directory.
+- 15-lets_move - Move files starting with uppercase letters to /tmp/u.
+- 16-clean_emacs - Delete files ending with ~.
+- 17-tree - Create the welcome/to/school directory structure.
 
 ## Custom Bash function
 
