@@ -9,5 +9,5 @@ holbertonschool-shell/
 ├── README.md
 └── basics/
     └── 0-current_working_directory
-    ├── README.md
+    └── README.md
 ```
