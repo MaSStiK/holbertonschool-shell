@@ -1,43 +1,21 @@
-# holbertonschool-shell/basics
+# holbertonschool-shell/permissions
 
 ## Files
 
-- 0-current_working_directory - Print the current working directory.
-- 1-listit - List directory contents.
-- 2-bring_me_home - Change to the user's home directory.
-- 3-listfiles - List directory contents in long format.
-- 4-listmorefiles - List all files, including hidden ones, in long format.
-- 5-listfilesdigitonly - List all files in long format with numeric user and group IDs.
-- 6-firstdirectory - Create /tmp/my_first_directory.
-- 7-movethatfile - Move /tmp/betty to /tmp/my_first_directory.
-- 8-firstdelete - Delete /tmp/my_first_directory/betty.
-- 9-firstdirdeletion - Delete /tmp/my_first_directory.
-- 10-back - Return to the previous working directory.
-- 11-lists - List files in the current, parent, and /boot directories.
-- 12-file_type - Display the type of /tmp/iamafile.
-- 13-symbolic_link - Create a symbolic link to /bin/ls.
-- 14-copy_html - Copy new or updated HTML files to the parent directory.
-- 15-lets_move - Move files starting with uppercase letters to /tmp/u.
-- 16-clean_emacs - Delete files ending with ~.
-- 17-tree - Create the welcome/to/school directory structure.
-
-## Custom Bash function
-
-I added a custom Bash function called `git-chmod` that automatically sets executable permissions, stages the file, updates its Git mode, and verifies the result.
-
-#### Function (`~/.bashrc`)
-
-```bash
-git-chmod() {
-    if [ -z "$1" ]; then
-        echo "Usage: git-chmod <file>"
-        return 1
-    fi
-
-    chmod u+x "$1" &&
-    git add "$1" &&
-    git update-index --chmod=+x "$1" &&
-    git ls-files -s "$1" &&
-    printf 'Success: %s is executable and staged in Git (100755)\n' "$1"
-}
-```
+- `0-iam_betty` - Switch to user betty.
+- `1-who_am_i` - Print the current username.
+- `2-groups` - List the current user's groups.
+- `3-new_owner` - Change file owner to betty.
+- `4-empty` - Create an empty file.
+- `5-execute` - Add execute permission to the owner.
+- `6-multiple_permissions` - Add execute permissions to owner and group, and read permission to others.
+- `7-everybody` - Add execute permission to everyone.
+- `8-James_Bond` - Remove all permissions from owner and group, grant full permissions to others.
+- `9-John_Doe` - Set specific file permissions.
+- `10-mirror_permissions` - Copy permissions from another file.
+- `11-directories_permissions` - Add execute permission to all subdirectories.
+- `12-directory_permissions` - Create a directory with specific permissions.
+- `13-change_group` - Change file group to school.
+- `14-change_owner_and_group` - Recursively change owner and group.
+- `15-symbolic_link_permissions` - Change the owner and group of a symbolic link.
+- `16-if_only` - Change file owner only if it matches a specified user.
