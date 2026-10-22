@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n '^' | grep -E '^[0-9]*[13579]:' | cut -d ':' -f2- | cut -d ' ' -f1
+perl -lne '$.%2 and print' | cut -f1
