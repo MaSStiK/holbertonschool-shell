@@ -17,3 +17,6 @@
 - `12-combinations` - Print all two-letter combinations except `oo`.
 - `13-print_float` - Print a number with two decimal places.
 - `14-decimal_to_hexadecimal` - Convert a decimal number to hexadecimal.
+- `15-rot13` - Encode and decode text using ROT13 encryption.
+- `16-odd` - Print every other line from the input, starting with the first.
+- `17-water_and_stir` - Add two numbers in custom bases and convert the result to another base.
